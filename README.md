@@ -8,6 +8,24 @@ A PHP 8.2+ singly linked list that maintains elements in ascending sorted order.
 
 ## Installation
 
+This package is not published on Packagist. Install it directly from GitHub by adding the repository to your `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/knebekaise/sorted-linked-list"
+        }
+    ],
+    "require": {
+        "knebekaise/sorted-linked-list": "^1.0"
+    }
+}
+```
+
+Then run:
+
 ```bash
 composer install
 ```
